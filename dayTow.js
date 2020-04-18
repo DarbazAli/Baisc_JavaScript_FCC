@@ -68,9 +68,78 @@ console.log(appended += adjective);
 /*==============================
     LESSON #7 STRING PROPERITES - Find the Length of a String
 ================================*/
-
+// Using .length prop to find the length of a string
 let me = "Darbaz";
 console.log(me.length);
+
+
+
+// Accessing first Letter(Char) in a string by using Bracket Notation
+let firstName = "Darbaz";
+let firstLetter = firstName[0];
+console.log(firstLetter);
+
+// Using bracket notation to find a character at a specific index
+let thirdLetter = firstName[2];
+console.log(thirdLetter);
+
+
+// Using Bracket Notation to access the last char of a string
+let lastChar = firstName[firstName.length -1];
+console.log(lastChar);
+
+
+// Useing Bracket Notation to Find the Nth-to-Last Character in a String
+// find secondTolast of firstname var
+let secondTolast = firstName[firstName.length -2];
+console.log(secondTolast);
+
+
+
+
+
+
+/*==============================
+    LESSON #8 STRING IMMUTABILITY
+================================*/
+
+/*
+    in Javascript, String is immutable, it means, the value cannot be changed once it declared.
+    the only way to chage a string is by changing the whole string.
+*/
+firstName[0] = "J";
+console.log(firstName);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
