@@ -111,7 +111,7 @@ console.log(myCalc);
 
 // Project: Stand in Line
 /* 
-    Aueu is a Data Structur whre items can be kept in order,
+    Queu is a Data Structur whre items can be kept in order,
     One Item adds to the end,
     One removes from the first
 */

@@ -2,7 +2,7 @@
     Arrays in JAVASCRIPT
 ================================== */
 
-// Storing multiple values in one string using arrays
+// Storing multiple values in one place using arrays
 let myArray = ['First Item', 'Second Item', 22, true, undefined, null];
 console.log(myArray);
 
